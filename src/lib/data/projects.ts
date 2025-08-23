@@ -147,6 +147,40 @@ export const projects: Project[] = [
       { label: 'Coverage', value: '95%' },
       { label: 'False Positives', value: '< 5%' }
     ]
+  },
+  {
+    id: 'bec-attack-analysis',
+    title: 'BEC Attack Case Study',
+    subtitle: 'Google & Facebook $98M Business Email Compromise Analysis',
+    description: 'Deep forensic analysis of the $98M business email compromise attack, identifying overlooked attack vectors and proposing enhanced detection strategies.',
+    
+    challenge: 'Analyze how a single threat actor successfully defrauded two tech giants of $98M over 2 years without detection, despite their sophisticated security measures.',
+    
+    solution: 'Conducted comprehensive attack chain analysis, identified the dual-vector approach (employee impersonation + vendor legitimacy), and proposed multi-layered detection framework including behavioral analytics and vendor verification protocols.',
+    
+    impact: [
+      'Identified critical gap in vendor payment verification processes',
+      'Developed 5-point detection framework for BEC attacks',
+      'Analysis adopted by IBM course as exemplar case study',
+      'Demonstrated advanced threat analysis beyond standard frameworks'
+    ],
+    
+    technologies: ['Threat Intelligence', 'OSINT', 'Attack Chain Analysis', 'Risk Assessment', 'Behavioral Analytics', 'Financial Forensics'],
+    
+    category: 'security',
+    featured: true,
+    
+    docsUrl: '/blog/bec-attack-deep-dive',  // Links to detailed blog post
+    githubUrl: '', // Maybe link to your analysis document if you put it on GitHub
+    
+    date: '2025-04-15',
+    
+    metrics: [
+      { label: 'Attack Duration', value: '2 years' },
+      { label: 'Total Loss', value: '$98M' },
+      { label: 'Detection Methods', value: '5 proposed' },
+      { label: 'IBM Score', value: '100%' }
+    ]
   }
 ]
 
